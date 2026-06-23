@@ -73,3 +73,12 @@ def binary_search(a,target):
             right=mid-1
 
 print(binary_search(a,8))
+
+
+#O(logn)
+TRANSACTION=[108,104,103,101,110]
+TRANSACTION.sort()
+print(TRANSACTION)
+
+
+#get the largest/maximum value
