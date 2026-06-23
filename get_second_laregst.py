@@ -10,7 +10,7 @@ def get_second_largest(arr):
         if i>first_big:
             second_big=first_big
             first_big=i
-        elif i>second_big:
+        elif i>second_big and i != first_big:
             second_big=i
     return first_big,second_big
 
