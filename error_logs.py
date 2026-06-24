@@ -28,5 +28,5 @@ def logs_summary(logs):
             result[log_date][user]=result[log_date].get(user,0)+1
     return result
 
-print(logs_summary(logs))
+print(logs_summary(logs) ) 
 
